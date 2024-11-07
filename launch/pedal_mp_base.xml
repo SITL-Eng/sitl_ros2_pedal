@@ -1,0 +1,7 @@
+<launch>
+    <node name="mp_read"  pkg="sitl_ros2_pedal" exec="pub_pedal_mp_r" output="screen">
+    </node>
+
+    <node name="mp_write" pkg="sitl_ros2_pedal" exec="sub_pedal_mp_w" output="screen">
+    </node>
+</launch>
