@@ -21,7 +21,7 @@ setup(
     maintainer='sitl-dvrk-sub',
     maintainer_email='sktlgt93@gmail.com',
     description='SITL ROS2 Package for Electrosurgical Unit Control',
-    license='Apache-2.0',
+    license='MIT',
     entry_points={
         'console_scripts': [
             'pub_pedal_mp_r      = sitl_ros2_pedal.pub_pedal_mp_r:main',
